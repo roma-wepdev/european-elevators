@@ -1,0 +1,331 @@
+!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>الشركة الأوروبية للمصاعد</title>
+  <style>
+    body {
+      font-family: 'Cairo', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #a30000; /* الخلفية حمرا */
+      color: white;
+    }
+
+    header {
+      text-align: center;
+      padding: 30px 10px 10px;
+    }
+
+    header img {
+      width: 100px;
+      height: auto;
+      margin-bottom: 15px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 26px;
+    }
+
+    .info {
+      background-color: #fff;
+      color: #333;
+      padding: 20px;
+      margin: 20px auto;
+      width: 90%;
+      max-width: 800px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+      text-align: center;
+    }
+
+    .info h2 {
+      margin-bottom: 10px;
+      color: #a30000;
+    }
+
+    .info p {
+      margin: 8px 0;
+      line-height: 1.6;
+    }
+
+    .gallery {
+      background-color: #fff;
+      padding: 30px 15px;
+      margin: 30px auto;
+      width: 90%;
+      max-width: 1000px;
+      border-radius: 10px;
+      text-align: center;
+      color: #333;
+    }
+
+    .gallery h2 {
+      margin-bottom: 20px;
+      color: #a30000;
+    }
+
+    .gallery-images {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      justify-content: center;
+    }
+
+    .gallery-images img {
+      width: 220px;
+      height: auto;
+      border-radius: 10px;
+      border: 2px solid #ccc;
+      transition: transform 0.3s ease;
+    }
+
+    .gallery-images img:hover {
+      transform: scale(1.05);
+    }
+    .about, .contact {
+  background-color: #fff;
+  color: #333;
+  padding: 25px 15px;
+  margin: 30px auto;
+  width: 90%;
+  max-width: 800px;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.15);
+  text-align: center;
+}
+
+.about h2, .contact h2 {
+  color: #a30000;
+  margin-bottom: 15px;
+}
+
+.contact a {
+  color: #a30000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
+.contact-button {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.contact-button a {
+  background-color: #0d0dcdbd;
+  color: white;
+  padding: 15px 25px;
+  text-decoration: none;
+  border-radius: 10px;
+  font-size: 18px;
+  transition: background-color 0.3s ease;
+}
+
+.contact-button a:hover {
+  background-color: #0056b3;
+}
+
+.map-container {
+  margin: 40px auto;
+  max-width: 900px;
+  border: 3px solid #007bff;
+  border-radius: 12px;
+  overflow: hidden;
+}
+#hours {
+  background-color: #f8f8f8;
+  padding: 40px 20px;
+  text-align: center;
+  border-radius: 10px;
+  margin: 40px 0;
+}
+
+#hours h2 {
+  color: #003366;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.hours-box p {
+  font-size: 18px;
+  color: #ca0909e4;
+  margin: 10px 0;
+}
+#services {
+  background-color: #f9f9f9;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+#services h2 {
+  color: #003366;
+  margin-bottom: 30px;
+}
+
+.services-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.service-card {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 15px;
+  max-width: 300px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+
+.service-card:hover {
+  transform: scale(1.03);
+}
+
+.service-card h3 {
+  color: #005faa;
+  margin-bottom: 10px;
+}
+
+.service-card p {
+  color: #444;
+  font-size: 15px;
+  line-height: 1.6;
+}
+#faq {
+  background-color: #ba1111df;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+#faq h2 {
+  font-size: 32px;
+  margin-bottom: 30px;
+  color: #1a1a1a;
+}
+
+.fa-container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.faq-item {
+  margin-bottom: 15
+  style>
+.language-switch {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  z-index: 999;
+}
+</style>
+  </style>
+
+</head>
+<body>
+
+<header>
+
+  <img src="logo.png.jpg" alt="لوجو الشركة">
+  <h1>أهلاً بك في الشركة الأوروبية لتركيب وصيانة المصاعد</h1>
+</header>
+<section class="about">
+  <h2>من نحن</h2>
+  <p>
+    نحن "الشركة الأوروبية لتركيب وصيانة المصاعد"، نمتلك خبرة تمتد لسنوات في تقديم أفضل حلول المصاعد الكهربائية
+    والهيدروليكية للمباني السكنية والتجارية. نضمن الجودة، الأمان، وسرعة التنفيذ بأحدث التقنيات وبفريق من المهندسين والفنيين المتخصصين.
+  </p>
+</section>
+<section id="services" class="section">
+  <h2>خدماتنا</h2>
+  <div class="services-container">
+    <div class="service-card">
+      <h3>تركيب المصاعد</h3>
+      <p>نوفر خدمات تركيب المصاعد الحديثة بمستويات أمان عالية وجودة ممتازة.</p>
+    </div>
+    <div class="service-card">
+      <h3>الصيانة الدورية</h3>
+      <p>نقوم بأعمال الصيانة الدورية لضمان سلامة وكفاءة عمل المصاعد بشكل دائم.</p>
+    </div>
+    <div class="service-card">
+      <h3>تحديث الأنظمة القديمة</h3>
+      <p>نُحدّث المصاعد القديمة لتواكب أحدث التقنيات العالمية.</p>
+    </div>
+  </div>
+</section>
+<section class="info">
+  <h2>معلومات الاتصال</h2>
+  <p><strong>المهندس:</strong> حمدي البلتاجي فيشار</p>
+  <p><strong>رقم الهاتف:</strong> 01000016176</p>
+  <p><strong>العنوان:</strong> مدينة نصر - شبانة - الحي العاشر - بلوك 22</p>
+  <p><strong>الإيميل:</strong> الشركة الأوروبية لتركيب وصيانة المصاعد</p>
+</section>
+
+<section class="gallery">
+  <h2>معرض صور المصاعد</h2>
+  <div class="gallery-images">
+    <img src="elevator.jbg.jpg" alt="مصعد 1">
+    <img src="elevator2.jbg.jpg" alt="مصعد 2">
+    <img src="elevator3.jbg.jpg" alt="مصعد 3">
+  </div>
+</section>
+ <section id="hours" class="section">
+  <h2>🕒 مواعيد العمل</h2>
+  <div class="hours-box">
+    <p><strong>السبت إلى الخميس:</strong> 8:00 صباحًا - 6:00 مساءً</p>
+    <p><strong>الجمعة:</strong> مغلق</p>
+  </div>
+  <section>
+  <section id="faq" class="section">
+  <h2>الأسئلة الشائعة</h2>
+  <div class="faq-container">
+    <div class="faq-item">
+      <button class="faq-question">ما هي أنواع المصاعد التي تقدمونها؟</button>
+      <div class="faq-answer">
+        <p>نقدم جميع أنواع المصاعد مثل الكهربائية والهيدروليكية والمصاعد المنزلية الصغيرة.</p>
+      </div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question">هل تقدمون صيانة دورية؟</button>
+      <div class="faq-answer">
+        <p>نعم، نقدم خطط صيانة دورية شهرية وسنوية للحفاظ على المصاعد بأفضل حالة.</p>
+      </div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question">هل يمكن تحديث مصعد قديم؟</button>
+      <div class="faq-answer">
+        <p>بالتأكيد، نقوم بتحديث المصاعد القديمة لتكون مطابقة لأحدث معايير الأمان والتكنولوجيا.</p>
+      </div>
+</section>
+<section id="services" class="section">
+  <div class="services-container">
+    <div class="service-card">
+  </div>
+</section>
+<section class="contact">
+  <h2>تواصل معنا</h2>
+  <p>📞 الهاتف: <a href="tel:01000016176">01000016176</a></p>
+  <p>💬 واتساب: <a href="https://wa.me/201000016176" target="_blank">اضغط هنا للتواصل على واتساب</a></p>
+  <p>📧 الإيميل: elevators.europe@gmail.com</p>
+</section>
+<div class="contact-button">
+  <a href="https://wa.me/201000016176" target="_blank">📞 احجز معاينة مجانية الآن عبر واتساب</a>
+</div>
+</div>
+<!-- قسم الخريطة -->
+<section id="location">
+  <h2 style="text-align: center; color: #004080; margin-top: 50px;">موقع الشركة على الخريطة</h2>
+  <div class="map-container">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3455.690160398184!2d31.369793315112665!3d30.048765381879553!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14583e8a2f1fae05%3A0x3a93d81b4e3acb2a!2z2YXYs9iq2LTYp9mE2YrYqSDYp9mE2YjYp9iv2Yog2KfZhNmF2YjYsdmK2Kkg2YjZhNmF2LHYp9mE2Kk!5e0!3m2!1sar!2seg!4v1690745428199!5m2!1sar!2seg"
+      width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+  </div>
+</body>
+</html>
