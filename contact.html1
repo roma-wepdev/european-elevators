@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الشركة الأوروبية للمصاعد</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            direction: rtl;
+            text-align: right;
+            padding: 20px;
+        }
+        header, footer {
+            background-color: #003366;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        section {
+            background: white;
+            padding: 20px;
+            margin-top: 10px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        a {
+            color: #0066cc;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>الشركة الأوروبية لتركيب وصيانة المصاعد</h1>
+    </header>
+
+    <section id="contact">
+        <h2>تواصل معنا</h2>
+        <p>📞 الهاتف: <a href="tel:01000016176">01000016176</a></p>
+        <p>📞 الهاتف: <a href="tel:01147203879">01147203879</a></p>
+        <p>📞 الهاتف: <a href="tel:0224717901">0224717901</a></p>
+        <p>📞 الهاتف: <a href="tel:01276939336">01276939336</a></p>
+        <p>💬 واتساب: <a href="https://wa.me/201000016176" target="_blank">اضغط هنا للتواصل على واتساب</a></p>
+        <p>💬 واتساب: <a href="https://wa.me/201276939336" target="_blank">اضغط هنا للتواصل على واتساب</a></p>
+        <p>📧 الإيميل: <a href="mailto:elevators.europe@gmail.com">elevators.europe@gmail.com</a></p>
+    </section>
+
+    <footer>
+        <p>© 2025 الشركة الأوروبية للمصاعد</p>
+    </footer>
+</body>
+</html>
